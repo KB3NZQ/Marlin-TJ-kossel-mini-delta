@@ -341,7 +341,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 #define Y_MAX_POS 125
 #define Y_MIN_POS -125
 #define Z_MAX_POS MANUAL_Z_HOME_POS
-#define Z_MIN_POS 19 // orgional value 0 probed bed came to 19.7 tight on peace of printer paper
+#define Z_MIN_POS 0 // orgional value 0 probed bed came to 19.7 tight on peace of printer paper
 
 #define X_MAX_LENGTH (X_MAX_POS - X_MIN_POS)
 #define Y_MAX_LENGTH (Y_MAX_POS - Y_MIN_POS)
